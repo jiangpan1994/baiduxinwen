@@ -1,4 +1,4 @@
-       .a{width: 800px;
+       .sousuokuang{width: 800px;
 			height: 80px;
 			position: absolute;
 			top: 35px;
@@ -26,7 +26,7 @@
 			margin-top: -35px;
             margin-left: 850px;
 		}
-		.fk{
+		.fangkuang{
 			width: 1350px;
 			height: 30px;
 			border: none;
@@ -34,12 +34,14 @@
 			margin-left: -200px;
             margin-top: 38px;
             background-color: #000080;
-
-
+            font-size: 24px;
 
 		}
-		.fk a :hover{
-			color: red;
+		.fangkuang  a span {
+			color: white;
+		}
+		.fangkuang a span:hover{
+			background-color: red;
 		}
 		#ula>li {
         float: left;
@@ -49,352 +51,352 @@
         left: 288px;
         }
 
-	a:link,
-	a:visited {
-	    text-align: center;
-	    text-decoration: none;
-	    cursor: pointer;
-	    color: #000000;
-	}
+		a:link,
+		a:visited {
+		    text-align: center;
+		    text-decoration: none;
+		    cursor: pointer;
+		    color: #000000;
+		}
 
-	a:hover {
-	    text-decoration: underline;
-	}
+		a:hover {
+		    text-decoration: underline;
+		}
 
-	#bdt {
-	    position: absolute;
-	    top: 36px;
-	    left: 182px;
-	}
+		#bdt {
+		    position: absolute;
+		    top: 36px;
+		    left: 182px;
+		}
 
-	#div1>input {
-	    width: 400px;
-	    height: 33px;
-	    position: absolute;
-	    left: 345px;
-	    top: 46px;
-	}
+		#div1>input {
+		    width: 400px;
+		    height: 33px;
+		    position: absolute;
+		    left: 345px;
+		    top: 46px;
+		}
 
-	#bt {
-	    width: 105px;
-	    height: 39px;
-	    position: absolute;
-	    left: 749px;
-	    top: 46px;
-	    border: 1px;
-	    border-color: #A9A9A9;
-	    border-style: solid solid solid none;
-	    font-size: 17px;
-	    background-color: #F7F7F7;
-	}
+		#bt {
+		    width: 105px;
+		    height: 39px;
+		    position: absolute;
+		    left: 749px;
+		    top: 46px;
+		    border: 1px;
+		    border-color: #A9A9A9;
+		    border-style: solid solid solid none;
+		    font-size: 17px;
+		    background-color: #F7F7F7;
+		}
 
-	#div1>#ulc>li {
-	    float: left;
-	    position: relative;
-	    left: 388px;
-	    top: 33px;
-	    font-size: 10px;
-	    padding: 10px;
-	}
+		#div1>#ulc>li {
+		    float: left;
+		    position: relative;
+		    left: 388px;
+		    top: 33px;
+		    font-size: 10px;
+		    padding: 10px;
+		}
 
-	#div2>#ulb>li {
-	    float: left;
-	    position: relative;
-	    left: -337px;
-	    top: 66px;
-	    font-size: 10px;
-	    padding: 10px;
-	}
+		#div2>#ulb>li {
+		    float: left;
+		    position: relative;
+		    left: -337px;
+		    top: 66px;
+		    font-size: 10px;
+		    padding: 10px;
+		}
 
-	#div3>ul>li {
-	    float: left;
-	    position: relative;
-	    left: 175px;
-	    top: -20px;
-	    font-size: 10px;
-	    padding: 7px;
-	}
+		#div3>ul>li {
+		    float: left;
+		    position: relative;
+		    left: 175px;
+		    top: -20px;
+		    font-size: 10px;
+		    padding: 7px;
+		}
 
-	#sa:hover {
-	    background-color: #01204F;
-	    color: #ffffff;
-	}
+		#sa:hover {
+		    background-color: #01204F;
+		    color: #ffffff;
+		}
 
-	#uld a:hover {
-	    text-decoration: none;
-	}
+		#uld a:hover {
+		    text-decoration: none;
+		}
 
-	#im {
-	    position: absolute;
-	    left: 0px;
-	    top: 25px;
-	    z-index: 999;
-	    display: none;
-	}
+		#im {
+		    position: absolute;
+		    left: 0px;
+		    top: 25px;
+		    z-index: 999;
+		    display: none;
+		}
 
-	#sb {
-	    margin-left: -38px;
-	}
+		#sb {
+		    margin-left: -38px;
+		}
 
-	#sb:hover #im {
-	    display: block;
-	}
+		#sb:hover #im {
+		    display: block;
+		}
 
-	#ima {
-	    position: absolute;
-	    left: 962px;
-	    top: 100px;
-	}
+		#ima {
+		    position: absolute;
+		    left: 962px;
+		    top: 100px;
+		}
 
-	#div4 {
-	    width: 100%;
-	    height: 44px;
-	    background-color: #01204F;
-	    position: absolute;
-	    left: 0px;
-	    top: 125px;
-	    scroll-behavior:
-	}
+		#div4 {
+		    width: 100%;
+		    height: 44px;
+		    background-color: #01204F;
+		    position: absolute;
+		    left: 0px;
+		    top: 125px;
+		    scroll-behavior:
+		}
 
-	#div4>#ule>li {
-	    float: left;
-	    position: relative;
-	    left: 140px;
-	    top: -15px;
-	    font-size: 15px;
-	    padding: 10px;
-	    height: 23px;
-	}
+		#div4>#ule>li {
+		    float: left;
+		    position: relative;
+		    left: 140px;
+		    top: -15px;
+		    font-size: 15px;
+		    padding: 10px;
+		    height: 23px;
+		}
 
-	#div4 a {
-	    z-index: 999;
-	    color: #ffffff;
-	}
+		#div4 a {
+		    z-index: 999;
+		    color: #ffffff;
+		}
 
-	#div4 a:hover {
-	    text-decoration: none;
-	}
+		#div4 a:hover {
+		    text-decoration: none;
+		}
 
-	.li:hover {
-	    background-color: #CC0000;
-	}
+		.li:hover {
+		    background-color: #CC0000;
+		}
 
-	#sli {
-	    background-color: #CC0000;
-	}
+		#sli {
+		    background-color: #CC0000;
+		}
 
-	#divb {
-	    margin-left: -5px;
-	    background-color: #01204F;
-	}
+		#divb {
+		    margin-left: -5px;
+		    background-color: #01204F;
+		}
 
-	#ulf {
-	    margin-left: -40px;
-	}
+		#ulf {
+		    margin-left: -40px;
+		}
 
-	#ulf>li {
-	    padding-top: 7px;
-	    padding-left: 8px;
-	}
+		#ulf>li {
+		    padding-top: 7px;
+		    padding-left: 8px;
+		}
 
-	.lia {
-	    display: none;
-	}
+		.lia {
+		    display: none;
+		}
 
-	#divb:hover .lia {
-	    display: block;
-	}
+		#divb:hover .lia {
+		    display: block;
+		}
 
-	.lia:hover {
-	    background-color: #1a3e78;
-	}
+		.lia:hover {
+		    background-color: #1a3e78;
+		}
 
-	#imb {
-	    position: absolute;
-	    top: -5px;
-	    left: 275px;
-	}
+		#imb {
+		    position: absolute;
+		    top: -5px;
+		    left: 275px;
+		}
 
-	#imc {
-	    position: absolute;
-	    top: -5px;
-	    left: 600px;
-	}
+		#imc {
+		    position: absolute;
+		    top: -5px;
+		    left: 600px;
+		}
 
-	#divc {
-	    position: absolute;
-	    top: 182px;
-	    left: 177px;
-	    width: 32%;
-	    height: 1105px;
-	}
+		#divc {
+		    position: absolute;
+		    top: 182px;
+		    left: 177px;
+		    width: 32%;
+		    height: 1105px;
+		}
 
-	#ulg>li {
-	    float: left;
-	    position: relative;
-	    top: -18px;
-	    left: -52px;
-	    padding: 15px;
-	    font-size: 20px;
-	}
+		#ulg>li {
+		    float: left;
+		    position: relative;
+		    top: -18px;
+		    left: -52px;
+		    padding: 15px;
+		    font-size: 20px;
+		}
 
-	#divd {
-	    position: absolute;
-	    top: 39px;
-	    left: 0px;
-	}
+		#divd {
+		    position: absolute;
+		    top: 39px;
+		    left: 0px;
+		}
 
-	#ulh {
-	    position: relative;
-	    top: -5px;
-	    left: -9px;
-	}
+		#ulh {
+		    position: relative;
+		    top: -5px;
+		    left: -9px;
+		}
 
-	#ulh .lib {
-	    list-style-type: square;
-	    font-size: 20px;
-	}
+		#ulh .lib {
+		    list-style-type: square;
+		    font-size: 20px;
+		}
 
-	#ulh .lic {
-	    list-style-type: none;
-	    font-size: 10px;
-	    padding-bottom: 20px;
-	}
+		#ulh .lic {
+		    list-style-type: none;
+		    font-size: 10px;
+		    padding-bottom: 20px;
+		}
 
-	#hr {
-	    position: relative;
-	    top: 154px;
-	    left: -21px;
-	    width: 90%;
-	}
+		#hr {
+		    position: relative;
+		    top: 154px;
+		    left: -21px;
+		    width: 90%;
+		}
 
-	#dive {
-	    position: absolute;
-	    top: 227px;
-	    left: -8px;
-	}
+		#dive {
+		    position: absolute;
+		    top: 227px;
+		    left: -8px;
+		}
 
-	.lid a {
-	    font-size: 17px;
-	    font-weight: bolder;
-	}
+		.lid a {
+		    font-size: 17px;
+		    font-weight: bolder;
+		}
 
-	.uli li {
-	    padding: 5px;
-	    font-size: 14px;
-	}
+		.uli li {
+		    padding: 5px;
+		    font-size: 14px;
+		}
 
-	.uli a:hover {
-	    color: #369;
-	}
+		.uli a:hover {
+		    color: #369;
+		}
 
-	#divf {
-	    position: absolute;
-	    top: 0px;
-	    left: 427px
-	}
+		#divf {
+		    position: absolute;
+		    top: 0px;
+		    left: 427px
+		}
 
-	#divg {
-	    position: absolute;
-	    top: 305px;
-	    left: 427px;
-	    width: 560px;
-	}
+		#divg {
+		    position: absolute;
+		    top: 305px;
+		    left: 427px;
+		    width: 560px;
+		}
 
-	#hot {
-	    color: #254282;
-	}
+		#hot {
+		    color: #254282;
+		}
 
-	.en {
-	    color: #999;
-	    font-size: 14px;
-	}
+		.en {
+		    color: #999;
+		    font-size: 14px;
+		}
 
-	#mo {
-	    color: #999;
-	    font-size: 14px;
-	    position: absolute;
-	    left: 526px;
-	    top: 20px;
-	}
+		#mo {
+		    color: #999;
+		    font-size: 14px;
+		    position: absolute;
+		    left: 526px;
+		    top: 20px;
+		}
 
-	#divh {
-	    position: relative;
-	    top: 264px;
-	    left: 428px;
-	}
+		#divh {
+		    position: relative;
+		    top: 264px;
+		    left: 428px;
+		}
 
-	#tb {
-	    text-align: center;
-	    width: 565px;
-	    height: 200px;
-	    font-size: 12px;
-	}
+		#tb {
+		    text-align: center;
+		    width: 565px;
+		    height: 200px;
+		    font-size: 12px;
+		}
 
-	.std {
-	    font-size: 17px;
-	}
+		.std {
+		    font-size: 17px;
+		}
 
-	td a:hover {
-	    text-decoration: none;
-	    background-color: #18448e;
-	}
-	#divi {
-	    position: absolute;
-	    left: 966px;
-	    top: 144px;
-	}
-	#imn{
-		position: absolute;
-	    left:-327px;
-	    top: -39px;
-	    display: none;
-	}
-	#imm{
-		position: absolute;
-	    left:40px;
-	    top: -36px;
-	}
-	#divj:hover #imn{
-		display: block;
-	}
-	#mm{
-		width: 100px;
-		font-size: 14px;
-	    position: absolute;
-	    left: 470px;
-	    top: 0px;
-		color: red;
-	}
-	#hra{
-		width: 135%;
-	}
-	#divk{
-		position: absolute;
-		top: 600px;
-	    left: 390px;
-	}
-	.fo{
-		font-size: 12px;
-	}
-	#ulj{
-		width: 230px;}
-	#ulj>li{
-		float: left;
-		position: relative;
-		top:4px;
-	    left: -36px;
-		padding-left: 12px;
-	}
-	.ap{
-		font-size: 14px;
-		color: #18448e;
-		padding: 5px;
-	}
-	#divl{
-		position: absolute;
-		top: 600px;
-	    left: 658px;
-	    width: 347px;
+		td a:hover {
+		    text-decoration: none;
+		    background-color: #18448e;
+		}
+		#divi {
+		    position: absolute;
+		    left: 966px;
+		    top: 144px;
+		}
+		#imn{
+			position: absolute;
+		    left:-327px;
+		    top: -39px;
+		    display: none;
+		}
+		#imm{
+			position: absolute;
+		    left:40px;
+		    top: -36px;
+		}
+		#divj:hover #imn{
+			display: block;
+		}
+		#mm{
+			width: 100px;
+			font-size: 14px;
+		    position: absolute;
+		    left: 470px;
+		    top: 0px;
+			color: red;
+		}
+		#hra{
+			width: 135%;
+		}
+		#divk{
+			position: absolute;
+			top: 600px;
+		    left: 390px;
+		}
+		.fo{
+			font-size: 12px;
+		}
+		#ulj{
+			width: 230px;}
+		#ulj>li{
+			float: left;
+			position: relative;
+			top:4px;
+		    left: -36px;
+			padding-left: 12px;
+		}
+		.ap{
+			font-size: 14px;
+			color: #18448e;
+			padding: 5px;
+		}
+		#divl{
+			position: absolute;
+			top: 600px;
+		    left: 658px;
+		    width: 347px;
 
-	}
+		}
